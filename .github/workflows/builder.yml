@@ -7,7 +7,7 @@ jobs:
   kernel:
     runs-on: ubuntu-latest
     env:
-      CURRENT_KERNEL_VERSION: 6.7.10
+      CURRENT_KERNEL_VERSION: 6.8.1
       BUILD_LOG: build.log
     strategy:
       matrix:
